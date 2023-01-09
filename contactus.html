@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Hall of Reasons</title>
+    <link rel="stylesheet" href="./CSS/contactusstyle.css">
+    <!-- googlefont poppins-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+    <!-- fontawesome kit-->
+    <script src="https://kit.fontawesome.com/f978f68b84.js" crossorigin="anonymous" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS/contactusscript.js" defer></script>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="./pictures/logo_icon.ico">
+
+</head>
+
+<body>
+    
+    <nav>
+            
+        <div class="navbar">
+            <i class='fa fa-bars'></i>
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./pictures/logo.png" alt="hor logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <img src="./pictures/logo.png" alt="sidebar hor logo">
+                    <i class="fa fa-xmark"></i>
+                </div>
+                
+                <ul class="links">
+                    <li>
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    
+                    <li>
+                        <a>THE REASONS</a>
+                            <i class='fa fa-chevron-down reasons-arrow arrow'></i>
+                            <ul class="reasons-sub-menu sub-menu">
+                                <li><a href="./reasonsgallery.html">Reasons Gallery</a></li>
+                                <li><a href="./reasongenerator.html">Reason Generator</a></li>
+                            </ul>
+                    </li>
+                    
+                    <li>
+                        <a>ABOUT US</a>
+                            <i class='fa fa-chevron-down aboutus-arrow arrow'></i>
+                            <ul class="aboutus-sub-menu sub-menu">
+                                <li><a href="./aboutus.html">The Story of HoR</a></li>
+                                <li><a href="./aboutus.html">Meet the HoR Team</a></li>
+                                <li><a href="./aboutus.html">Future Plans</a></li>
+                            </ul>
+                    </li>
+
+                    <li>
+                        <a href="./contactus.html">CONTACT US</a>
+                    </li>
+                </ul>
+
+                </div>
+                    <div class="search-box">
+                    <i class='fa fa-magnifying-glass'></i>
+                    <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--button on the side to scroll back up-->
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go back to top">&#8593TOP</button>
+
+
+    <section class="row">
+
+        <!-- landing picture -->
+        <div class="landing">
+            <div class="landing-container">
+                <img id="contactus-landing-img" src="./pictures/contactus-landing.png" alt="contactus-landing">
+            <!--      <div id="contactus-caption">
+                        <h1>Contact Us</h1>
+                        <p>We like to hear from you! Tell us anything or give us some feedback.</p>
+                    </div> -->
+            </div>
+
+        </div>
+        
+
+    </section>
+
+    <section class="row">
+        
+        <div class="form-container">
+            <div class="form-content">
+                <div class="left-side">
+
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="type">Address</div>
+                        <div class="text-one">123 Gelato Lane</div>
+                        <div class="text-two">London CF12 3GG</div>
+                    </div>
+
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="type">Phone</div>
+                        <div class="text-one">+44 7123 456789</div>
+                        <div class="text-two">+44 2012 345678</div>
+                    </div>
+
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="type">Email</div>
+                        <div class="text-one">hallofreasons@hor.com</div>
+                        <div class="text-two">info@hor.com</div>
+                    </div>
+
+                </div>
+
+                <div class="right-side">
+
+                    <div class="msg-text">
+                        <h1>GET IN TOUCH</h1>
+                        <p>Get in touch with us for anything and everything. 
+                            We would like to hear from you! Feedbacks are lovely, 
+                            complaints are taken into consideration and popping by 
+                            just to say hi, brightens our day.
+                        </p>
+                    </div>
+
+                    <form action="mailto:info@hor.com" method="post" enctype="text/plain">
+                        <div class="input-box">
+                            <input type="text" name="name" placeholder="Enter your name">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="input-box message-box">
+                            <textarea type="text" name="message" placeholder="Enter your message here"></textarea>
+                            
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Submit" >
+                        </div>
+                        <div class="button">
+                            <input type="reset" value="Reset" >
+                        </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>    
+                    
+
+    </section>
+
+    <section>
+        <div class="row">
+            <!-- about us story bottom picture -->
+            <div id="contactus-img-container">
+                <img id="contactus-img" src="./pictures/contactus-bottom2.png" alt="contactus-bottom">
+            </div>
+
+        </div>
+ 
+    </section>
+       
+                 
+    <section class="row">
+        <footer class="footer">
+            <div class="footer-container">
+                <ul class="footer-links">
+                    <li>
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li>
+                        <!-- Trigger/Open The Modal -->
+                        <a id="modalTrigger" onclick="disclaimerOpen()">DISCLAIMER</a>
+                    </li>
+                    <li>
+                        <a href="./contactus.html">CONTACT US</a>
+                    </li>
+                </ul>
+    
+                <div class="footer-socials">
+                    <span>
+                        <a href="https://www.instagram.com/" target="_blank" class="fa-brands fa-instagram"></a>
+                    </span>
+                    <span>
+                        <a href="https://uk.linkedin.com/" target="_blank" class="fa-brands fa-linkedin"></a>
+                    </span>
+                    <span>
+                        <a href="https://en-gb.facebook.com/" target="_blank" class="fa-brands fa-facebook"></a>
+                    </span>
+                    <span>
+                        <a href="https://twitter.com/" target="_blank" class="fa-brands fa-twitter"></a>
+                    </span>
+                </div>
+    
+                <div class="footer-copyright">
+                    <p>Copyright&#169; 2022-2023 by Hall of Reasons. All Rights Reserved.<br>
+                    Created by Sally Yeoh for CFG Web Development Final Project.</p>
+                </div>
+    
+            </div>
+        
+            <!-- The Modal -->
+            <div id="footerModal" class="disclaimer-modal">
+                <!-- Modal content -->
+                <div class="footer-modal-content">
+                    <h1>DISCLAIMER</h1>
+                    <p>Hall of Reasons is intended solely for the purpose of light hearted entertainment.<br>
+                    Please refrain from using any of the reasons for any serious and life changing decision.<br>
+                    Nope, the HoR team will not be held responsible for any form of danger or accident resulting from misuse.
+                    <br><br><br>
+                    </p>
+
+                <!--modal close button-->
+                    <button class="footerClose cursor" onclick="disclaimerClose()"><span>close</span></button>
+                </div>
+        </footer> 
+
+    </section>
+
+
+
+</body>
+
+</html>
+ 
