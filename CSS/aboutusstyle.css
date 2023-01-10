@@ -499,14 +499,14 @@ nav .navbar .links li:hover .aboutus-sub-menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding:none;
+
 
 }
 
 #aboutus-plans-text {
     color: #36454F;
     max-width: 100%;
-    padding: 1.875rem;
+    margin-left: 1.875rem;
     display: block;
 }
 
@@ -527,7 +527,6 @@ nav .navbar .links li:hover .aboutus-sub-menu {
     flex-direction: row;
     max-width: 100vw;
     flex-wrap: wrap;
-    padding:none;
 
 
 }
