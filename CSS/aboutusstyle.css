@@ -561,7 +561,7 @@ nav .navbar .links li:hover .aboutus-sub-menu {
 
 .aboutus-table-container {
     width:100%;
-    padding-left: 1.875rem;
+    margin-left: 1.875rem;
 }
 
 .aboutus-table-container p {
